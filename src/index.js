@@ -7,7 +7,7 @@ var divide = require("./calculator/divide");
 window.onload = function () {
   document.getElementById("calculateBtn").addEventListener("click", calculate);
 };
-//trial push
+//Trial commit
 function calculate() {
   var firstNum = parseInt(document.getElementById("firstnumber").value);
   var secondNum = parseInt(document.getElementById("secondnumber").value);
